@@ -46,5 +46,5 @@ for data, expected in zip(test_data, expected):
         res = solution(data)
         assert res == expected
     except AssertionError:
-        raise AssertionError(f'Test failed for {data}: {res} != {expected}')
+        raise AssertionError(f'test failed for {data}: {res} != {expected}')
 
